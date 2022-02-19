@@ -1,0 +1,10 @@
+com\QA\Extentreport\extentReportListener.class
+com\QA\Baseclass\TestBase.class
+com\QA\pages\SignupPage.class
+com\QA\pages\HomePage.class
+com\QA\pages\ContactsPage.class
+com\QA\pages\TaskPage.class
+com\QA\Utlities\WebEventListener.class
+com\QA\pages\LoginPage.class
+com\QA\Utlities\TestUtil.class
+com\QA\pages\DealsPage.class

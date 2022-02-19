@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Ganesh]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="com.QA.tesecases.logInTest">
+        <methods>
+          <include name="crmLogoImageTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="loginPageTest"/>
+        </methods>
+      </class> <!-- com.QA.tesecases.logInTest -->
+      <class name="com.QA.tesecases.ContactsPageTest">
+        <methods>
+          <include name="bfmethod"/>
+          <include name="tearDown"/>
+          <include name="verifyContactPageTest"/>
+          <include name="setUp"/>
+          <include name="validateCreateNewContact" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.QA.tesecases.ContactsPageTest -->
+      <class name="com.QA.tesecases.HomePageTest">
+        <methods>
+          <include name="verifyUserNameTest"/>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyContactsLinkTest"/>
+        </methods>
+      </class> <!-- com.QA.tesecases.HomePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Ganesh] -->
